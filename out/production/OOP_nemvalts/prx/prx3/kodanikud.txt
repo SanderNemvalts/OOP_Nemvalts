@@ -1,0 +1,5 @@
+Männik,Mari-Liis,47101010033,Olemas
+Jõeorg,Jaak Kristjan,38001085718,Puudub
+Pihlakas,Arno,37605030299,Olemas
+Paanika,Peeter,36908209993,Puudub
+Maasikas-Jõhvikas,Mari,61710020019,Puudub
