@@ -11,13 +11,13 @@ public class TudengPeaklass {
 
     static void main() throws Exception {
 
-        String failinimi = "data" + File.separatorChar + "punktid.txt";
+        String failinimi = "data"+File.separatorChar+"prx6"+File.separatorChar+"punktid.txt";
 
         Tudeng tudeng = new Tudeng("Mati Mustikas", loePunktideFail(failinimi));
         System.out.println(tudeng);
-        tudeng.salvestBinaarfaili("data" + File.separatorChar + "tudeng.bin");
+        tudeng.salvestBinaarfaili("data"+File.separatorChar+"prx6"+File.separatorChar+"tudeng.bin");
 
-        Tudeng tudeng2 = Tudeng.loeBinaarfailist("data" + File.separatorChar + "tudeng.bin");
+        Tudeng tudeng2 = Tudeng.loeBinaarfailist("data"+File.separatorChar+"prx6"+File.separatorChar+"tudeng.bin");
         System.out.println(tudeng2);
 
     }

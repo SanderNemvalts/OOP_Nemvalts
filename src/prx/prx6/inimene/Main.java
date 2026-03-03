@@ -12,7 +12,7 @@ public class Main {
         System.out.println(inimene);
 
         try (DataOutputStream dos = new DataOutputStream(
-                new FileOutputStream("data" + File.separatorChar + "inimene.bin")
+                new FileOutputStream("data"+File.separatorChar+"prx6"+File.separatorChar+"inimene.bin")
         )) {
             dos.writeUTF(inimene.getEesnimi());
             dos.writeUTF(inimene.getPerenimi());
@@ -25,7 +25,7 @@ public class Main {
 
 
         try (DataInputStream dis = new DataInputStream(
-                new FileInputStream("data" + File.separatorChar + "inimene.bin")
+                new FileInputStream("data"+File.separatorChar+"prx6"+File.separatorChar+"inimene.bin")
         )) {
             String lEesnimi = dis.readUTF();
             String lPerenimi = dis.readUTF();
