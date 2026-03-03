@@ -1,4 +1,4 @@
-package prx.prx6.yl4;
+package prx.prx6.moodle;
 
 import java.io.DataInputStream;
 import java.io.DataOutputStream;
