@@ -1,0 +1,3 @@
+Server võtab ühenduse vastu ja loeb requestide arvu (int).
+Seejärel loeb server kliendilt esimese requesti ja saadab sellele response.
+Seejärel loeb järgmise requesti ja saadab sellele response jne.

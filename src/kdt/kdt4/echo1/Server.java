@@ -1,4 +1,4 @@
-package kdt.kdt4;
+package kdt.kdt4.echo1;
 
 import java.io.DataInputStream;
 import java.io.DataOutputStream;
